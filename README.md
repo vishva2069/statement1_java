@@ -1,1 +1,2 @@
-# statement1_java
+int age = 18;
+
