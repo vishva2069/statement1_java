@@ -23,7 +23,7 @@ if(num > 0)
 // એક integer લો.
 // જો number even હોય તો "Even Number" print કરો.
 
-int count = 10;
+int count = 100;
 
 if(num % 2 == 0){
     system.out.println("even number");
@@ -262,7 +262,40 @@ switch(operater){
 
 int number = 4
 
-if(number >= 3)
+// && → બે condition જોડે
+
+if(number % 3 == 0 && number % 5 == 0)
 {
-   system.out.println("invalid operator");
+    system.out.println("FizzBuzz");
+}
+else if(number % 3 == 0)
+{
+     system.out.println("Fizz");
+}
+else if(number % 5 == 0)
+{
+     system.out.println("buzz");
+}
+else
+{
+     system.out.println("Not divisible");
+}
+
+3 numbers input લો અને largest number find કરો
+(if–else only)
+
+int num1 = 24;
+int num2 = 67;
+int num3 = 99;
+
+if(num1 >= num2 && num1 >= num3)
+{
+   System.out.println("largest number ="+ num1); 
+}
+else if(num2 >= num3 && num2 >= num1)
+{
+    System.out.println("largest number =" + num2);
+}
+else{
+    System.out.println("largest number =" + num3);
 }
