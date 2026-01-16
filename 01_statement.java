@@ -23,7 +23,7 @@ if(num > 0)
 // એક integer લો.
 // જો number even હોય તો "Even Number" print કરો.
 
-int count = 7;
+int count = 10;
 
 if(num 2 %=== 0){
     system.out.println("even number");
